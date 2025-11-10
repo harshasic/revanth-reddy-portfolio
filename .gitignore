@@ -10,3 +10,16 @@ pnpm-debug.log*
 dist
 .env
 .DS_Store
+
+# Secrets / keys / env
+.env
+.env.*.local
+*.pem
+*.key
+*.p8
+*.keystore
+*.jks
+*.p12
+*.der
+*.crt
+aws_credentials

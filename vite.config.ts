@@ -5,7 +5,7 @@ import tailwind from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwind()],
   server: {
-        allowedHosts: ['soft-plants-jam.loca.lt'],
+        allowedHosts: [],
       }
 })
 
